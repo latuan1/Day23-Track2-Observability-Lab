@@ -95,7 +95,17 @@ Các attribute này giúp trace không chỉ nói “request chậm”, mà còn
 Structured JSON log line có `trace_id`:
 
 ```json
-{"model":"llama3-mock","input_tokens":8,"output_tokens":8,"quality":0.855,"duration_seconds":0.1647,"trace_id":"ce198bc40c5820734352b6e20c53ab11","event":"prediction served","level":"info","timestamp":"2026-05-11T14:46:16.889664Z"}
+{
+  "model": "llama3-mock",
+  "input_tokens": 8,
+  "output_tokens": 8,
+  "quality": 0.855,
+  "duration_seconds": 0.1647,
+  "trace_id": "ce198bc40c5820734352b6e20c53ab11",
+  "event": "prediction served",
+  "level": "info",
+  "timestamp": "2026-05-11T14:46:16.889664Z"
+}
 ```
 
 Log này hữu ích vì cùng một `trace_id` có thể dùng để đi từ log sang trace. Khi debugging production, tôi sẽ bắt đầu từ log có lỗi hoặc latency cao, lấy `trace_id`, rồi mở Jaeger để xem request đã tốn thời gian ở bước embedding, vector search hay generation.
