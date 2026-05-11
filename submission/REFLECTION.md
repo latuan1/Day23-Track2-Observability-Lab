@@ -13,7 +13,11 @@
 Paste output of `python3 00-setup/verify-docker.py`:
 
 ```
-... paste here ...
+Docker:        OK  (29.4.1)
+Compose v2:    OK  (5.1.3)
+RAM available: 7.62 GB (OK)
+Ports free:    OK
+Report written: C:\Users\nak11\python\aithucchien\Track-2\Day23-Track2-Observability-Lab\00-setup\setup-report.json
 ```
 
 ---
