@@ -279,6 +279,7 @@ AI không có cái này. Bạn có. Đừng để mất.
 | Boris Cherny — *Building Claude Code* (Anthropic, 2025) | 100% AI-generated code, 30–150 PR/ngày, printing press analogy |
 | Cat Wu — *Product Taste in the Agentic Era* (Anthropic, 2025) | Underfunding strategy, dissolving roles, taste as moat |
 | Anthropic — *Co-work* (product, 2025) | Agentic principles ngoài engineering — knowledge work tự động hoá |
+| [NotebookLM — Vibe Coding companion](https://notebooklm.google.com/notebook/55558a1b-4565-4622-9dfb-e05fe4b08f45) | Tổng hợp + audio overview của các nguồn ở trên — nghe trong lúc đi/chạy bộ |
 
 ---
 

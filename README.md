@@ -72,6 +72,12 @@ make down                  # stop (preserves data)
 - **eBPF continuous profiling** — Linux-only kernel feature; lives in `BONUS-ebpf-profiling/` for those who can run it.
 - **Multi-tenant security** — anonymous Grafana viewer is `Viewer` role with no real auth. Lab-grade only.
 
+## Creative bonus (UNGRADED)
+
+Past the rubric there's a separate **portfolio-style** bonus: point this observability stack at *something real you care about* (a prior day's lab, a VN business using AI, a real Vietnamese dataset for drift, a model whose cost you want to track, or a chaos-test postmortem of your own system). No points, no rubric — just one shippable artifact.
+
+Full provocations: [`BONUS-CHALLENGE.md`](BONUS-CHALLENGE.md) (tiếng Việt) · [`BONUS-CHALLENGE-EN.md`](BONUS-CHALLENGE-EN.md) (English). Format: brainstorm-first, code-second, pairs OK. Output: 1 portfolio piece that lets you say "I instrumented X for Y, here's the dashboard, here's the alert, here's the postmortem."
+
 ## Submission
 
 Public GitHub URL + commits in `submission/screenshots/` and `submission/REFLECTION.md`. Grader runs `make verify` expecting exit code 0.
@@ -83,6 +89,8 @@ Public GitHub URL + commits in `submission/screenshots/` and `submission/REFLECT
 ├── Makefile                     ← orchestration
 ├── docker-compose.yml           ← 7 services
 ├── README.md / rubric.md / HARDWARE-GUIDE.md / VIBE-CODING.md
+├── BONUS-CHALLENGE.md           ← creative bonus brief (tiếng Việt, ungraded)
+├── BONUS-CHALLENGE-EN.md        ← creative bonus brief (English, ungraded)
 ├── .env.example
 ├── pyproject.toml / requirements.txt
 ├── 00-setup/                    ← pre-flight
